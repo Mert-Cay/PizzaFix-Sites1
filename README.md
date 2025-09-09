@@ -1,4 +1,4 @@
-# stackblitz-starters-cqu9cmtj
+# PiizzaSite
 # 🍕 PizzaS - HTML & CSS Pizza Sitesi
 
 Bu proje, HTML ve CSS kullanılarak hazırlanmış basit bir **Pizza Tanıtım / Restoran** web sitesidir.  
