@@ -1,0 +1,232 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: khaki;
+}
+
+header {
+  max-width: 2500px;
+  margin: 0 275px;
+}
+
+header .head-content {
+  position: relative;
+}
+
+.head-content h2 {
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-content img {
+  width: 100%;
+}
+
+header .d-flex {
+  position: absolute;
+  top: 25px;
+  right: 40%;
+}
+
+header .head-info {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+header .head-info span {
+  font-size: 22px;
+  color: white;
+}
+
+header .head-info a {
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+  padding: 7px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+header .head-info a:hover {
+  background-color: red;
+}
+
+/* Header finish */
+
+section .icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section .icon-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-right: 20px;
+}
+
+/* icon-section finish */
+
+.section2 {
+  display: flex;
+  margin: 50px 30px;
+  max-width: 1800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .advert {
+  position: relative;
+}
+
+.section2 h2 {
+  color: Red;
+}
+
+.section2 .advert img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.section2 .advert .writer-info {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: white;
+  font-size: 1rem;
+}
+
+.section2 .advert .writer-info .advert-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  align-items: center;
+}
+
+.advert-flex a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.advert-flex a:hover {
+  color: red;
+}
+
+.section2 .two {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Section2 finish */
+
+.section3 .content {
+  max-width: 1800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section3 .content h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: red;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+.section3 .icon-info {
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+/* Section3 finish */
+
+.section4 .liked-product {
+  position: relative;
+  margin: 50px 20px;
+  max-width: 300px;
+  background-color: white;
+  max-height: 700px;
+}
+
+.section4 .product-info {
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  width: 300px;
+}
+
+.section4 .product-info .info span {
+  color: black;
+}
+
+.section4 h3 {
+  color: darkgray;
+  border-radius: 5px;
+  margin-left: 60%;
+}
+
+.section4 .info {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.section4 .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section4 finishes */
+
+footer {
+  background-color: rgb(46, 43, 43);
+  margin-top: 150px;
+  color: white;
+}
+
+footer .flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .start {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+footer .final {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .final i {
+  color: lightblue;
+  font-size: 1.5rem;
+}
+
+hr {
+  margin-top: 40px;
+}
